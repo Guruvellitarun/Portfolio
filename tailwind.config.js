@@ -1,5 +1,4 @@
-import type { Config } from "tailwindcss";
-
+/** @type {import('tailwindcss').Config} */
 export default {
   darkMode: ["class"],
   content: [
@@ -33,9 +32,8 @@ export default {
           light: "hsl(var(--slate-light))",
         },
         green: {
-          DEFAULT: "hsl(166, 100%, 70%)",
-          light: "hsl(166, 100%, 75%)",
-          tint: "hsl(166 100% 70% / 0.1)",
+          DEFAULT: "hsl(var(--green))",
+          tint: "hsl(var(--green-tint))",
         },
         primary: {
           DEFAULT: "hsl(var(--primary))",
@@ -54,8 +52,8 @@ export default {
           foreground: "hsl(var(--muted-foreground))",
         },
         accent: {
-          DEFAULT: "hsl(166, 100%, 70%)",
-          foreground: "hsl(222, 47%, 5%)",
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -115,4 +113,4 @@ export default {
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config;
+};
