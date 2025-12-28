@@ -4,7 +4,7 @@ const experiences = [
   {
     company: "Valiqor",
     role: "Software Engineering Intern",
-    period: "Dec 2024 – Present",
+    period: "Dec 2025 – Present",
     url: "https://valiqor.com",
     points: [
       "Implemented automated unit and integration tests for trace-processing pipelines, improving test reliability and coverage.",
