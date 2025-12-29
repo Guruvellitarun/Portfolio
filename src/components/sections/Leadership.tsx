@@ -33,15 +33,15 @@ const leadershipRoles = [
 const certifications = [
   {
     title: "AWS Certified Cloud Practitioner",
-    link: "#",
+    link: "https://www.credly.com/badges/ec9750c1-7ac8-4b96-bf85-f9b918bd39be/linked_in_profile",
   },
   {
     title: "Machine Learning by Stanford University",
-    link: "#",
+    link: "https://www.coursera.org/account/accomplishments/verify/0BZWPO4CSMNR",
   },
   {
     title: "Data Science Professional Certificate",
-    link: "#",
+    link: "https://www.udemy.com/certificate/UC-cbbceb0f-f5ea-4e6d-ba2f-95a1dba094df/",
   },
 ];
 
