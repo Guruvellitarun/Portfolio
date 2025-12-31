@@ -355,3 +355,26 @@ svg[class*="folder"],
   background-color: hsl(217, 33%, 70%);
   display: block;
 }
+
+/* Hide default cursor globally */
+* {
+  cursor: none !important;
+}
+
+/* Custom cursor styles */
+.custom-cursor {
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease;
+  filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+}
+
+.custom-cursor.clicking {
+  transform: translate(-50%, -50%) scale(1.3);
+}
+
+.custom-cursor svg {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.5));
+}
