@@ -55,7 +55,7 @@ const About = () => {
       >
         <div className="md:col-span-2 space-y-4 text-slate-light">
           <p>
-            Hello! I'm Tarun, a data-driven student pursuing an{" "}
+            Hello! I'm vishal, a data-driven student pursuing an{" "}
             <span className="text-accent">Integrated MTech in Computer Science</span> at
             VIT Chennai. My passion lies in transforming raw data into actionable
             insights and building automated, cloud-native solutions.
